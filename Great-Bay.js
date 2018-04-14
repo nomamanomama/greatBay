@@ -24,3 +24,5 @@
 
 // * Get creative! There are a lot of addons to this app which you could create so feel free to work with your group to come up with something not listed above!
 
+var inquirer = require('inquirer');
+var mysql = require('mysql');
