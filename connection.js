@@ -5,7 +5,8 @@ var connection = mysql.createConnection({
     port: 3306,
     user: 'root',
     password: 'password',
-    database: 'great-bay-db'
+    database: 'great_bay_db'
 });
 
 module.exports = connection;
+console.log("connected")
